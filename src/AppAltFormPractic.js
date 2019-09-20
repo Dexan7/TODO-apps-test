@@ -19,9 +19,7 @@ class App extends Component {
     const { name, value, type, checked } = event.target;
     type === "checkbox"
       ? this.setState({
-          dietaryRestrictions: {
-            [name]: checked
-          }
+          [name]: checked
         })
       : this.setState({
           [name]: value
@@ -79,7 +77,6 @@ class App extends Component {
           </label>
           {/* Здесь создайте поле со списком для выбора пункта назначения */}
           <br />
-          <label>Choose ur city</label>
           <select
             value={this.state.destination}
             onChange={this.handleChange}
