@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./App";
+// import App from "./App";
+// import AppAlt from "./AppAlt";
+import AppAltFormPractic from "./AppAltFormPractic";
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<AppAltFormPractic />, document.getElementById("root"));
